@@ -17,8 +17,8 @@ jobs:
     - name: Clone Ghidra
       uses: actions/checkout@v4
       with:
-        repository: NationalSecurityAgency/ghidra
-        ref: Ghidra_11.3.2_build
+        repository: rand-tech/ghidra
+        ref: fix-ip-struct
         path: ghidra
     - name: Set GHIDRA_VERSION
       run: |
